@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="starterApp" ng-controller="AppController as app">
+
+<head>
+    <meta charset="utf-8">
+    <meta base="/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title ng-bind="pageTitle"></title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="/dist/css/style.min.css" rel="stylesheet">
+</head>
+
+<body layout="row">
+    <section layout="row" flex>
+        <md-content flex layout-padding layout="column" ui-view></md-content>
+    </section>
+    <script src="/dist/js/vendors.min.js"></script>
+    <script src="/dist/js/app.min.js"></script>
+</body>
+
+</html>
