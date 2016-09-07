@@ -23,7 +23,6 @@ var vendorScripts = [
 
 var styles = [
     'bower_components/bootstrap/dist/css/bootstrap.min.css',
-    'bower_components/angular-material/angular-material.min.css',
     'bower_components/angular-loading-bar/build/loading-bar.min.css',
     'bower_components/ng-prettyjson/dist/ng-prettyjson.min.css',
     'app/css/**/*.css'
